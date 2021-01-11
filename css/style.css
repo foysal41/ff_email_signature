@@ -1,0 +1,275 @@
+/*
+Global Css 
+------------
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+
+}
+
+body {
+	background: #fafafa;
+}
+
+
+
+
+
+/*
+Email Signature
+*/
+
+#email_signature {
+	padding: 30px;
+}
+
+
+#email_signature .email_left img {
+	height: 200px;
+	float: right;
+
+}
+
+.bor::before {
+	content: '';
+	height: 240px;
+	width: 10px;
+	background-image: linear-gradient(to bottom, rgba(105, 105, 105), rgba(189, 0, 0, 1));
+	display: inline-block;
+}
+
+
+#email_signature .email_right h2 {
+	font-family: Arial,
+		sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#email_signature .email_right span {
+	display: block;
+	color: #B90404;
+	font-weight: bold;
+}
+
+#email_signature .email_right h4 {
+	color: #000;
+	font-weight: 600;
+}
+
+.email_right strong {
+	color: #556F7A;
+}
+
+
+.social_media ul {
+	position: absolute;
+	top: 85%;
+	left: 32%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+
+}
+
+.social_media ul li {
+	margin: 0 15px;
+
+}
+
+.social_media ul li .fab {
+	font-size: 20px;
+	line-height: 50px;
+	transition: .6s;
+	color: #000;
+}
+
+.social_media ul li .fab:hover {
+	color: #fff;
+}
+
+.social_media ul li a {
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+
+
+}
+
+.social_media ul li a:hover {
+	transform: translate(0, -10px);
+}
+
+.social_media ul li:nth-child(1) a:hover {
+	background-color: #3b5999;
+}
+
+.social_media ul li:nth-child(2) a:hover {
+	background-color: #cd201f;
+}
+
+.social_media ul li:nth-child(3) a:hover {
+	background-color: #0077B5;
+}
+
+.social_media ul li:nth-child(4) a:hover {
+	background-color: #e4405f;
+}
+
+
+
+/*Mobile Friend CSS*/
+
+@media only screen and (max-width: 767px) {
+	.bor::before {
+		height: 10px;
+		width: 240px;
+	}
+
+	#email_signature .email_left img {
+		float: left;
+	}
+
+	.social_media {
+		margin-top: 30px;
+	}
+
+	.social_media ul {
+		top: 100%;
+	}
+
+	#email_signature .email_left img {
+		height: 150px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
